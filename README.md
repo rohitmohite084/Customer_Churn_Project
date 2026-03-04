@@ -1,26 +1,35 @@
-# 🎯 Customer Churn Prediction Project
+📊 Customer Churn Prediction Project
+A high-performance Machine Learning web application that predicts customer churn probability with high precision. Built using Scikit-Learn for the predictive model and Streamlit for a sophisticated, real-time interactive dashboard.
 
-Live Demo: [🚀 Click Here to View App](https://customer-churn-prediction-project-78.streamlit.app/)
+🚀 Live Demo: customer-churn-prediction-project-78.streamlit.app
 
-## 📝 Project Overview
-Ha ek **Machine Learning Dashboard** ahe jo telicom customers churn honar ki nahi (sobdun janar ki nahi) yache prediction karto. Ya madhe **19 different features** cha wapar karun customer cha risk level analyze kela jato.
+📌 Overview
+This project is an end-to-end Machine Learning application designed to identify at-risk customers from telecommunication datasets. It bridges the gap between complex predictive analytics and business decision-making, allowing users to interact with an AI model to understand customer retention in real-time.
 
-## ✨ Key Features
-- **Interactive Speedometer:** Customer cha risk level visual gauge madhe disto.
-- **19 Feature Analytics:** Tenure pasun te payment method paryant sarva options available ahet.
-- **Zero-Scroll UI:** Laptop screen sathi optimized, ekahi inch scroll karaychi garaj nahi.
-- **One-Click Presets:** High Risk ani Low Risk presets mule fast testing karta yete.
-- **Dynamic Recommendations:** Risk nusar AI kadun suggestions miltat.
+✨ Key Features
+Interactive Analytics Hub: A comprehensive dashboard featuring a dynamic Plotly speedometer for instant risk visualization.
 
-## 🛠️ Tech Stack
-- **Frontend:** [Streamlit](https://streamlit.io/)
-- **Analysis:** Pandas, Numpy
-- **Machine Learning:** Scikit-Learn
-- **Visualization:** Plotly
-- **Model Deployment:** Streamlit Cloud
+19-Feature Deep Analysis: Evaluates every critical customer touchpoint, from service types (Internet, Tech Support) to billing details (Tenure, Monthly Charges).
 
-## 🚀 How to use this project?
-1. **URL Open kara:** [Dashboard Link](https://customer-churn-prediction-project-78.streamlit.app/)
-2. **Presets vapra:** `HIGH RISK` kiwa `LOW RISK` button var click kara.
-4. **Manual Entry:** Tumhi swatache customer data (Tenure, Contract, Monthly Charges) bharu shakta.
-5. **Run Analysis:** `RUN SMART DIAGNOSTIC` var click karun final prediction bagha.
+Smart Automation:
+
+One-Click Presets: Instantly load High Risk or Low Risk customer profiles for rapid model testing.
+
+Zero-Scroll Interface: A strictly optimized, single-screen layout designed for a seamless professional user experience.
+
+Real-time AI Insights: Get instant probability scores accompanied by dynamic business recommendations (e.g., "Offer Discount" or "Review Tech Support").
+
+Validation & UX: Built-in logic to handle inputs and provide clear, color-coded alerts based on risk severity.
+
+🛠️ Tech Stack
+Language: Python 3.x
+
+Machine Learning: Scikit-Learn
+
+Web Framework: Streamlit
+
+Data Processing: Pandas, NumPy
+
+Visualization: Plotly (Interactive Gauges & Charts)
+
+Deployment: GitHub & Streamlit Cloud
